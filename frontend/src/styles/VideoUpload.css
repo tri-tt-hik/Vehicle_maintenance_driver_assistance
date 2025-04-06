@@ -1,0 +1,144 @@
+.tab-buttons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .tab-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 0 10px #00e5ff;
+  }
+  
+  .tab-btn:hover {
+    background-color: #d0d0d0;
+    transform: translateY(-1px);
+  }
+  
+  .tab-btn.active {
+    background-color: #1e40af; /* Blue-800 */
+    color: #fff;
+  }
+
+
+.trip-planner-container {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    border: 1px solid #00ffff;
+    margin-top: 20px;
+  }
+  
+  .trip-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00e5ff;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .trip-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .trip-inputs input {
+    padding: 10px;
+    border: 1px solid #00e5ff;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .trip-inputs input::placeholder {
+    color: #88c4db;
+  }
+  
+  .full-span {
+    grid-column: span 2;
+  }
+  
+  .trip-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .check-btn,
+  .start-btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00e5ff;
+  }
+  
+  .check-btn {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .start-btn {
+    background-color: #3f51b5;
+    color: white;
+    
+
+  }
+  
+  .check-btn:hover {
+    background-color: #ffb300;
+    transform: translateY(-1px);
+  }
+  
+  .start-btn:hover {
+    background-color: #303f9f;
+    transform: translateY(-1px);
+  }
+  
+  .feasibility-msg {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .success {
+    background-color: #2e7d32;
+  }
+  
+  .error {
+    background-color: #c62828;
+  }
+  
+  .empty-state {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #b0bec5;
+  }
+  
+  .trip-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #e0f7fa;
+  }
+  

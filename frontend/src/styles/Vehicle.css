@@ -1,0 +1,98 @@
+.vehicle-container {
+    width: 90%;
+    max-width: 1000px;
+    background: linear-gradient(135deg, rgba(36, 141, 189, 0.2), rgba(5, 34, 51, 0.2));
+    border: 2px solid #00cfff;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px auto;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .vehicle-header, .vehicle-subheader {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .vehicle-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  .vehicle-item {
+    padding: 10px 15px;
+    background-color: rgba(0, 224, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    border: 1px solid #00e0ff;
+  }
+  .vehicle-item:hover {
+    background-color: rgba(0, 224, 255, 0.2);
+    transform: scale(1.02);
+    box-shadow: 0 0 10px #00e0ff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .vehicle-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .vehicle-form input {
+    flex: 1;
+    min-width: 150px;
+    padding: 12px;
+    border: 1px solid #00e0ff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .vehicle-form input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .vehicle-form button {
+    padding: 12px 20px;
+    border: 2px solid #00e0ff;
+    border-radius: 10px;
+    background: #0a0f1d;
+    color: #00e0ff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .vehicle-form button:hover {
+    background-color: rgba(0, 224, 255, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00e0ff;
+  }
+  
+  .delete-button{
+    padding: 12px 20px;
+    border: 2px solid #00e0ff;
+    border-radius: 10px;
+    margin-left: 740px;
+    background: #0a0f1d;
+    color: #00e0ff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: rgba(0, 224, 255, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00e0ff;
+  }

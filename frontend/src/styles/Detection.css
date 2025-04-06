@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(to right,#08111d, #2393d2 );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .detection-container {
+    background: linear-gradient(135deg, rgba(36, 141, 189, 0.2), rgba(5, 34, 51, 0.2));
+    border: 2px solid #00cfff;
+    border-radius: 25px;
+    padding: 2rem;
+    max-width: 700px;
+    margin: 5rem auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 207, 255, 0.2);
+    backdrop-filter: blur(15px);
+    text-align: center;
+  }
+  
+  .detection-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .detection-file {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #e5f6ff;
+    border: 1px solid rgba(0, 207, 255, 0.3);
+    border-radius: 10px;
+    width: 80%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .detection-file:hover {
+    background-color: rgba(0, 207, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 207, 255, 0.3);
+  }
+  
+  .detection-button {
+    background: linear-gradient(to right, #00cfff, #007bff);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 207, 255, 0.3);
+  }
+  
+  .detection-button:hover {
+    background: linear-gradient(to right, #007bff, #00cfff);
+    box-shadow: 0 6px 18px rgba(0, 207, 255, 0.45);
+  }
+  
+  .detection-message {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #d1f0ff;
+  }
+  

@@ -1,0 +1,95 @@
+.documents-container {
+    background: linear-gradient(135deg, rgba(36, 141, 189, 0.2), rgba(5, 34, 51, 0.2));
+    border: 2px solid #00cfff;
+    border-radius: 25px;
+    padding: 2rem;
+    max-width: 700px;
+    margin: 5rem auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 207, 255, 0.2);
+    backdrop-filter: blur(15px);
+    text-align: center;
+  }
+  
+  .documents-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #00e6e6;
+    text-shadow: 0 0 10px #00e6e6;
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .upload-form select,
+  .upload-form input[type="file"] {
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #1a1a1a;
+    color: #fff;
+    box-shadow: inset 0 0 5px #00e6e6;
+  }
+  
+  .upload-form button {
+    background: linear-gradient(to right, #00cfff, #007bff);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 207, 255, 0.3);
+  }
+  
+  .upload-form button:hover {
+    background: linear-gradient(to right, #007bff, #00cfff);
+    box-shadow: 0 6px 18px rgba(0, 207, 255, 0.45);
+  }
+  
+  .documents-list-section {
+    margin-top: 2rem;
+  }
+  
+  .list-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #80deea;
+    text-shadow: 0 0 8px #80deea;
+  }
+  
+  .no-docs-text {
+    font-style: italic;
+    color: #ccc;
+  }
+  
+  .documents-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .documents-list li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .documents-list a {
+    color: #4dd0e1;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    background-color: #1c1c1c;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #009c9c;
+    transition: background 0.2s ease;
+  }
+  
+  .documents-list a:hover {
+    background-color: #263238;
+  }
+  

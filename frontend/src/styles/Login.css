@@ -1,0 +1,38 @@
+/* Set full screen background image */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.login-wrapper {
+    background-image: url("../assets/login.png"); /* 🔁 Update path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh; /* full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(0.9); /* optional: softens bg behind form */
+}
+
+.register-link {
+    color: white;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.register-link a {
+    color: #4aa9ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+

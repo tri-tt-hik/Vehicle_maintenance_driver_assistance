@@ -1,0 +1,83 @@
+body{
+  background: linear-gradient(to right, #0a0f1d, #3684BD);
+  backdrop-filter: blur(40px);
+}
+.home-container {
+  width: 90%;
+  max-width: 1000px;
+  background: linear-gradient(135deg, rgba(36, 141, 189, 0.2), rgba(5, 34, 51, 0.2));
+  border: 2px solid #00cfff;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 40px auto;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(40px);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.home-container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.home-container h2 {
+  font-size: 36px;
+  color: #00bcd4;
+  text-shadow: 0px 0px 10px rgba(0, 13, 17, 0.6);
+}
+
+.home-container .logout-btn {
+  background: linear-gradient(to right, #00cfff, #007bff);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 207, 255, 0.3);
+}
+
+.home-container .logout-btn:hover {
+  background: linear-gradient(to right, #007bff, #00cfff);
+  box-shadow: 0 6px 18px rgba(0, 207, 255, 0.45);
+}
+
+.home-container .nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.home-container .nav-buttons button {
+  width: 160px;           /* Fixed width */
+  height: 160px;          /* Fixed height */
+  font-size: 18px;
+  font-weight: bold;
+  color: #0a0f1d;
+  background: transparent;
+  border: 2px solid #00e0ff;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container .nav-buttons button:hover {
+  background-color: #00bcd4;
+  color: #0a0f1d;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00bcd4;
+}
